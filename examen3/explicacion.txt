@@ -1,0 +1,27 @@
+/*----------------------------------------------------------------
+
+*
+
+* Programación avanzada: Examen 3
+
+* Fecha: 26-May-2020
+
+* Autor: A01702828 - Jose carlos pacheco Sanchez
+
+*
+
+*--------------------------------------------------------------*/
+
+0.- Estrategia y parte de la solcion tomada del libro de semaforos "LittleBookof semaphore"
+0.1 - Parte del codigo tomado de los ejemplos en clase y solucion de Santa con semaforos
+
+1.- Tipo de probelma a resolver ---> Problema de semaforos con sincronizacion --> Producer-consumer
+
+2.-Estrategia a seguir:
+    - Crear varios semaforos (en este caso usaremos 3)
+    - Dado que hay comunicacion entre distintos archivos/procesos/semaforos -> Usar memoria compartida
+    (igual que con santa)
+    - En la parte de las abejas plantearse dos situaciones : cuando esta lleno y cuando no lo esta, donde dependiendo
+     de lo esta o no la abeja metera mas mielo o despertar al oso
+    - Parecido a las abejas pero ahora con el oso, si ya se lleno el tarro, se depierta y lo vaciara
+
